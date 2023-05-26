@@ -1,0 +1,164 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;  
+    background-color: #F2F0D5;
+}
+
+hr {
+    background-color: #F0F2AC;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.posca-pc-1mr-amarelo-pastel-1-hex { color: #EEF280; }
+.posca-pc-1mr-amarelo-pastel-2-hex { color: #EFF29B; }
+.posca-pc-1mr-amarelo-pastel-3-hex { color: #F0F2AC; }
+.posca-pc-1mr-amarelo-pastel-4-hex { color: #F2EFBB; }
+.posca-pc-1mr-amarelo-pastel-5-hex { color: #F2F0D5; }
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+
+.header {
+    margin-top: 50px;
+    background: #EEF280;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header h1 {
+    font-size: max(12px, 1vw);
+}
+
+.coteudos_header{
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo_header_nome {
+    font-size: 1vw;
+}
+
+.conteudo_header_resumo, .conteudo_header_data{
+    font-size: 1vw;
+}
+
+.conteudo_header_resumo {
+    width: 75%;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F2AC;
+}
+
+.atea_section1{
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.area_img img {
+    padding: 10px 10px 0 10px;
+    width: 97%;
+}
+
+.area_texto p {
+    padding: 0;
+    margin: 0;
+}
+
+.section2{
+
+    background-color: #F0F2AC;
+}
+
+.area_section2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px 20px 50px;
+    font-size: max(15px, 1vw);
+    text-align: justify;
+}
+
+.section3 {
+    padding-top: 5px;
+    background-color: #F0F2AC; 
+}
+
+.Area_tabela h1{
+    margin: 0px;
+}
+
+.Area_tabela table {
+    font-size: max(9px ,1vw);
+    margin-bottom: 20px;
+}
+
+.Area_tabela tr td {
+    border: 1px solid black;
+}
+
+.section3_area_img{
+    padding-left: 20px;
+    width: 75%;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+.section3_area_img img{
+    width: 100%;
+}
+
+.section4 {
+    padding-top: 5px;
+    background-color: #F0F2AC; 
+}
+
+.area_section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px 20px 50px;
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #EEF280;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a {
+    color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .conteiner{
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+    }
+}
